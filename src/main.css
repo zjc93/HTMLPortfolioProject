@@ -14,17 +14,3 @@ body {
   background-color: #F45B69;
   color: #eee;
 }
-
-.circle {
-  position:absolute;
-  border-radius: 50%;
-  background-color: #FF9366;
-}
-
-.a {
-  left: 0;
-  top: 40%;
-  width: 20%;
-  height: 30%;
-  z-index: 0;
-}
