@@ -13,18 +13,57 @@ body {
   padding: 20px;
   background-color: #F45B69;
   color: #eee;
+  border-radius: 0 0 5px 5px;
 }
 
-.circle {
-  position:absolute;
-  border-radius: 50%;
-  background-color: #FF9366;
+.header > h2, h3 {
+  font-family: 'Work Sans', sans-serif;
+}
+.header > h1 {
+  font-family: 'Libre Baskerville', serif;
 }
 
-.a {
-  left: 0;
-  top: 40%;
-  width: 20%;
-  height: 30%;
-  z-index: 0;
+h3 {
+  color: #222;
+}
+
+p, li {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.maxwidth {
+  display:block;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.tagline, .skills, .contact {
+  position: relative;
+  display: block;
+  padding: 10px 40px;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+
+.tagline {
+  background-color: #35DD5F;
+}
+
+.tagline > p {
+  color: #00310c;
+}
+
+.skills {
+  background-color: #5BC0EB;
+}
+
+.skills > p, .skills > ul {
+  color: #093142;
+}
+
+.contact {
+  background-color: #FFD147;
+}
+
+.contact {
+  color: #3c2f0a;
 }
